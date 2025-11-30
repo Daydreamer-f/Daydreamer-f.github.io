@@ -23,7 +23,7 @@ url: https://Daydreamer-f.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: # set to false to disable the back to top button
+back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -42,6 +42,7 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
+rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -51,7 +52,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: false
 socials_in_search: true
-posts_in_search: true
+# posts_in_search: true
 bib_search: false
 
 # Dimensions
@@ -190,7 +191,7 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
+  # - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
