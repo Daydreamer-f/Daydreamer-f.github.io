@@ -31,4 +31,4 @@ Currently, I am fortunately to be advised by Prof. [Ehsan Adeli](https://stanfor
 In general, my research interests lie in computer vision, generative models, and AI for healthcare. More specifically, I’m passionate about understanding and modeling human motion, with applications in human-centric video and 3D mesh generation, biomechanics-driven analysis for healthcare, and embodied AI and robotics.
 
 
-[Email](mailto:ysfang@stu.pku.edu.cn) / [Github](https://github.com/Daydreamer-f) / [Linkedin](https://www.linkedin.com/in/yusu-fang/) / [CV](../assets/pdf/resume.pdf)
+[Email](mailto:ysfang@stu.pku.edu.cn) / [Scholar](https://scholar.google.com/citations?hl=en&user=RZiiW3gAAAAJ) / [Github](https://github.com/Daydreamer-f) / [Linkedin](https://www.linkedin.com/in/yusu-fang/) / [X](https://x.com/Scarlett_Fangys)  / [CV](../assets/pdf/resume.pdf)
