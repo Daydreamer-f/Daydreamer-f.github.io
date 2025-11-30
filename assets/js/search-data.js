@@ -30,16 +30,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+        },{id: "news-the-language-of-motion-is-accepted-to-cvpr-2025",
+          title: 'The Language of Motion is accepted to CVPR 2025.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-awarded-scientific-research-excellence-award",
+          title: 'Awarded Scientific Research Excellence Award.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-socialgen-is-accepted-to-3dv-2026",
+          title: 'SocialGen is accepted to 3DV 2026.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
