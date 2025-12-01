@@ -19,6 +19,11 @@ strong {
   color: var(--global-text-color);
 }
 
+a strong {
+  color: inherit;
+  font-weight: 700;  // or bold
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
