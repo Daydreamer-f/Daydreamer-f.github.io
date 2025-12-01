@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded Scientific Research Excellence Award.
+I'll be joining UPenn GRASP Lab as a research intern.

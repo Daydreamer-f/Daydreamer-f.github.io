@@ -26,9 +26,9 @@ announcements:
 
 I am a senior undergraduate student from [School of EECS, Peking University](https://eecs.pku.edu.cn/en/).
 
-Currently, I am fortunately to be advised by Prof. [Ehsan Adeli](https://stanford.edu/~eadeli/) at [Stanford Vision and Learning (SVL) Lab](https://svl.stanford.edu/), Prof. [Lingjie Liu](https://lingjie0206.github.io/) and Prof. [Kostas Daniilidis](https://www.cis.upenn.edu/~kostas/) at [General Robotics, Automation, Sensing & Perception (GRASP) Lab](https://www.grasp.upenn.edu/). I also work closely with Prof. [Fei-Fei Li](https://profiles.stanford.edu/fei-fei-li) and Prof. [Scott Delp](https://profiles.stanford.edu/scott-delp).
+Currently, I am fortunately to be advised by Prof. [Ehsan Adeli](https://stanford.edu/~eadeli/) at <a href="https://svl.stanford.edu/"><strong>Stanford</strong> Vision and Learning (SVL) Lab</a>, Prof. [Lingjie Liu](https://lingjie0206.github.io/) and Prof. [Kostas Daniilidis](https://www.cis.upenn.edu/~kostas/) at <a href="https://www.grasp.upenn.edu/"><strong>UPenn</strong> GRASP Lab</a>. I also work closely with Prof. [Fei-Fei Li](https://profiles.stanford.edu/fei-fei-li) and Prof. [Scott Delp](https://profiles.stanford.edu/scott-delp).
 
-In general, my research interests lie in computer vision, generative models, and AI for healthcare. More specifically, I’m passionate about understanding and modeling human motion, with applications in human-centric video and 3D mesh generation, biomechanics-driven analysis for healthcare, and embodied AI and robotics.
+In general, my research interests lie in computer vision, generative models, and human-centered AI. More specifically, I’m passionate about modeling and understanding human motion for applications in video and 3D generation, biomechanics, and embodied agents.
 
 
-[Email](mailto:ysfang@stu.pku.edu.cn) / [Scholar](https://scholar.google.com/citations?hl=en&user=RZiiW3gAAAAJ) / [Github](https://github.com/Daydreamer-f) / [Linkedin](https://www.linkedin.com/in/yusu-fang/) / [X](https://x.com/Scarlett_Fangys)  / [CV](../assets/pdf/resume.pdf)
+[Email](mailto:ysfang@stu.pku.edu.cn) / [Scholar](https://scholar.google.com/citations?hl=en&user=RZiiW3gAAAAJ) / [Github](https://github.com/Daydreamer-f) / [Linkedin](https://www.linkedin.com/in/yusu-fang/) / [X](https://x.com/Scarlett_Fangys)
