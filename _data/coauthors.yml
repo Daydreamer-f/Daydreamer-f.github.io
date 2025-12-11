@@ -1,34 +1,53 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"yu":
+  - firstname: ["Heng"]
+    url: https://heng14.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"zhang":
+  - firstname: ["Juze"]
+    url: https://juzezhang.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"chen":
+  - firstname: ["Changan"]
+    url: https://changan.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"xiang":
+  - firstname: ["Tiange"]
+    url: https://ai.stanford.edu/~xtiange/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"niebles":
+  - firstname: ["Juan Carlos"]
+    url: https://www.niebles.net/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"tan":
+  - firstname: ["Tian"]
+    url: https://tian-a-tan.github.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"schuetz":
+  - firstname: ["Narayan"]
+    url: https://schuetz.su.domains/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"delp":
+  - firstname: ["Scott"]
+    url: https://profiles.stanford.edu/scott-delp
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"fei-fei":
+  - firstname: ["Li"]
+    url: https://profiles.stanford.edu/fei-fei-li
+
+"adeli":
+  - firstname: ["Ehsan"]
+    url: https://stanford.edu/~eadeli/
+
+"wetzstein":
+  - firstname: ["Gordon"]
+    url: https://stanford.edu/~gordonwz/
+
+"shao":
+  - firstname: ["Ruizhi"]
+    url: https://dsaurus.github.io/saurus/
+
+"lakshmikanth":
+  - firstname: ["Shrinidhi K."]
+    url: https://scholar.google.com.hk/citations?user=UjpM6IAAAAAJ&hl=zh-CN&oi=ao
+
+
