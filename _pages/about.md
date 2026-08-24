@@ -3,7 +3,7 @@ layout: homepage
 title: Yusu Fang
 permalink: /
 description: Yusu Fang is a Ph.D. student in Robotics at Carnegie Mellon University, working on computer vision, human motion, generative models, and embodied intelligence.
-tagline: Modeling humans in motion — from <em>generative worlds</em> to embodied intelligence.
+tagline: Modeling realistic interactions between humans and the physical world.
 
 socials:
   - key: email
@@ -60,6 +60,13 @@ publications:
       <a href="https://profiles.stanford.edu/fei-fei-li" target="_blank" rel="noopener noreferrer">Li Fei-Fei</a>, and
       <a href="https://stanford.edu/~eadeli/" target="_blank" rel="noopener noreferrer">Ehsan Adeli</a>
     note: Under review
+    links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2604.20157
+      - label: Website
+        url: https://humanscore.stanford.edu
+      - label: PDF
+        url: https://arxiv.org/pdf/2604.20157
   - venue: 3DV
     year: 2026
     title: "SocialGen: Modeling Multi-Human Social Interaction with Language Models"

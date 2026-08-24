@@ -28,7 +28,7 @@
     </script>
 
     <link rel="icon" href="assets/img/icon.png">
-    <link rel="stylesheet" href="assets/css/homepage.css">
+    <link rel="stylesheet" href="assets/css/homepage.css?v=20260824-scroll3">
   </head>
 
   <body>
@@ -69,8 +69,7 @@
         <div class="hero-copy">
           <p class="eyebrow"><span class="status-dot"></span> Ph.D. Student · CMU Robotics</p>
           <div class="name-lockup">
-            <h1>Yusu<br>Fang</h1>
-            <span class="name-note" aria-hidden="true">Human<br>Motion<br>&amp; AI</span>
+            <h1>Yusu Fang</h1>
           </div>
           <p class="hero-tagline">{{ page.tagline }}</p>
 
@@ -101,7 +100,6 @@
             <img class="portrait-image portrait-image--light" src="assets/img/me.png" alt="Portrait of Yusu Fang" width="1365" height="2048">
             <img class="portrait-image portrait-image--dark" src="assets/img/me_dark.png" alt="" width="1365" height="2048" aria-hidden="true">
           </div>
-          <p class="portrait-caption"><span>01</span> Yusu in motion, always.</p>
         </div>
       </div>
       <a class="scroll-cue" href="#about" aria-label="Scroll to About"><span></span>Explore</a>
@@ -117,7 +115,7 @@
         <div class="about-grid">
           <div class="about-copy">{{ content }}</div>
           <aside class="research-note">
-            <span class="note-label">Research lens</span>
+            <h3 class="note-title">Research Lens</h3>
             {{ page.research_statement | markdownify }}
           </aside>
         </div>
@@ -234,6 +232,6 @@
       </div>
     </footer>
 
-    <script src="assets/js/homepage.js" defer></script>
+    <script src="assets/js/homepage.js?v=20260824-scroll3" defer></script>
   </body>
 </html>

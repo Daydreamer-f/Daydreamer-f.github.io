@@ -21,6 +21,7 @@
   --sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   --nav-height: 68px;
+  --anchor-offset: 50px;
 }
 
 html[data-theme="dark"] {
@@ -50,7 +51,7 @@ html[data-theme="dark"] {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: calc(var(--nav-height) + 24px);
+  scroll-padding-top: var(--anchor-offset);
 }
 
 body {
@@ -285,6 +286,10 @@ html[data-theme="dark"] .theme-icon--sun {
   gap: clamp(48px, 8vw, 96px);
 }
 
+.hero-copy {
+  min-width: 0;
+}
+
 .eyebrow {
   width: fit-content;
   margin: 0 0 25px;
@@ -317,33 +322,17 @@ html[data-theme="dark"] .theme-icon--sun {
 }
 
 .name-lockup {
-  display: flex;
-  align-items: stretch;
-  gap: clamp(20px, 4vw, 34px);
+  display: block;
 }
 
 .name-lockup h1 {
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(64px, 9.4vw, 104px);
+  font-size: clamp(64px, 8vw, 96px);
   font-weight: 500;
   letter-spacing: -0.055em;
-  line-height: 0.84;
-}
-
-.name-note {
-  margin-top: 3px;
-  padding: 4px 0 2px 20px;
-  border-left: 1px solid var(--line);
-  display: flex;
-  align-items: center;
-  color: var(--faint);
-  font-family: var(--mono);
-  font-size: 10px;
-  font-weight: 650;
-  letter-spacing: 0.12em;
-  line-height: 1.8;
-  text-transform: uppercase;
+  line-height: 0.92;
+  white-space: nowrap;
 }
 
 .hero-tagline {
@@ -507,23 +496,6 @@ html[data-theme="dark"] .portrait-image--dark {
   to { transform: rotate(360deg); }
 }
 
-.portrait-caption {
-  position: relative;
-  z-index: 3;
-  margin: 15px 4px 0;
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  color: var(--faint);
-  font-family: var(--mono);
-  font-size: 10px;
-  letter-spacing: 0.04em;
-}
-
-.portrait-caption span {
-  color: var(--accent);
-}
-
 .scroll-cue {
   position: absolute;
   bottom: 28px;
@@ -564,7 +536,7 @@ html[data-theme="dark"] .portrait-image--dark {
 }
 
 .page-shell {
-  padding-bottom: 104px;
+  padding-bottom: 160px;
 }
 
 .content-section {
@@ -585,8 +557,8 @@ html[data-theme="dark"] .portrait-image--dark {
 }
 
 .section-index {
-  width: 39px;
-  height: 39px;
+  width: 42px;
+  height: 42px;
   border: 1px solid var(--ink);
   border-radius: 12px 12px 12px 3px;
   display: grid;
@@ -594,7 +566,7 @@ html[data-theme="dark"] .portrait-image--dark {
   background: var(--surface-solid);
   color: var(--accent);
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 800;
   box-shadow: 4px 4px 0 var(--accent);
   transform: rotate(-3deg);
@@ -679,13 +651,14 @@ html[data-theme="dark"] .portrait-image--dark {
   font-weight: 600;
 }
 
-.note-label {
+.note-title {
+  margin: 0;
   color: var(--accent);
-  font-family: var(--mono);
-  font-size: 9px;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  font-family: var(--serif);
+  font-size: clamp(20px, 2.4vw, 24px);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
 }
 
 .news-list {
@@ -1082,6 +1055,7 @@ html[data-theme="dark"] .venue-badge {
 @media (max-width: 720px) {
   :root {
     --nav-height: 62px;
+    --anchor-offset: 44px;
   }
 
   .nav-shell,
@@ -1135,6 +1109,7 @@ html[data-theme="dark"] .venue-badge {
   }
 
   .hero-copy {
+    width: 100%;
     max-width: 620px;
   }
 
@@ -1153,7 +1128,7 @@ html[data-theme="dark"] .venue-badge {
   }
 
   .name-lockup h1 {
-    font-size: clamp(64px, 22vw, 92px);
+    font-size: clamp(54px, 16vw, 72px);
   }
 
   .hero-tagline {
@@ -1233,11 +1208,6 @@ html[data-theme="dark"] .venue-badge {
 
   .social-pill:first-child span {
     display: inline;
-  }
-
-  .name-note {
-    padding-left: 14px;
-    font-size: 8.5px;
   }
 
   .about-copy {
