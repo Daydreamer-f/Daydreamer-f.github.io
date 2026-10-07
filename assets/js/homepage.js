@@ -102,8 +102,8 @@
 
   function palette() {
     return root.dataset.theme === 'dark'
-      ? { primary: '255, 114, 129', secondary: '109, 208, 207', line: '203, 225, 235' }
-      : { primary: '196, 18, 48', secondary: '21, 125, 133', line: '77, 111, 132' };
+      ? { primary: '245, 184, 92', secondary: '109, 208, 207', line: '203, 225, 235' }
+      : { primary: '107, 70, 193', secondary: '21, 125, 133', line: '77, 111, 132' };
   }
 
   function seed() {

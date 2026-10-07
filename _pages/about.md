@@ -23,10 +23,14 @@ socials:
     url: https://x.com/Scarlett_Fangys
 
 research_statement: >-
-  My research interests lie in **3D computer vision and robotics**. Specifically, I'm interested in
-  **human motion modeling and humanoid retargeting**.
+  My research interests lie in **3D computer vision, generative models, and robotics**. I aim to
+  build systems that perceive, model, and generate how humans move and interact with the 3D world,
+  and to transfer these capabilities to humanoid robots.
 
 news:
+  - date: 2026.09
+    datetime: 2026-09
+    text: <a href="https://arxiv.org/abs/2604.20157" target="_blank" rel="noopener noreferrer">HumanScore</a> was accepted to the NeurIPS 2026 Evaluations & Datasets Track. See you in Sydney!
   - date: 2026.08
     datetime: 2026-08
     text: I joined Carnegie Mellon University as a Ph.D. student in Robotics.
@@ -47,7 +51,7 @@ news:
     text: I joined the Stanford Vision & Learning Lab as a research intern.
 
 publications:
-  - venue: Under Review
+  - venue: NeurIPS
     year: 2026
     title: "HumanScore: Benchmarking Human Motions in Generated Videos"
     preview: /assets/img/publication_preview/humanscore.png
@@ -59,7 +63,7 @@ publications:
       <a href="https://profiles.stanford.edu/scott-delp" target="_blank" rel="noopener noreferrer">Scott Delp</a>,
       <a href="https://profiles.stanford.edu/fei-fei-li" target="_blank" rel="noopener noreferrer">Li Fei-Fei</a>, and
       <a href="https://stanford.edu/~eadeli/" target="_blank" rel="noopener noreferrer">Ehsan Adeli</a>
-    note: Under review
+    note: Conference on Neural Information Processing Systems (NeurIPS), Evaluations & Datasets Track
     links:
       - label: arXiv
         url: https://arxiv.org/abs/2604.20157

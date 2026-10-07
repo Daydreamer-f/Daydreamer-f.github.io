@@ -8,9 +8,9 @@
   --ink: #152238;
   --muted: #5d6c7d;
   --faint: #8a98a7;
-  --accent: #c41230;
-  --accent-bright: #e34259;
-  --accent-soft: rgba(196, 18, 48, 0.09);
+  --accent: #6b46c1;
+  --accent-bright: #8b6ae0;
+  --accent-soft: rgba(107, 70, 193, 0.09);
   --teal: #157d85;
   --teal-soft: rgba(21, 125, 133, 0.11);
   --line: rgba(21, 34, 56, 0.14);
@@ -34,9 +34,9 @@ html[data-theme="dark"] {
   --ink: #eef4f7;
   --muted: #a9bac6;
   --faint: #748996;
-  --accent: #ff7281;
-  --accent-bright: #ff96a1;
-  --accent-soft: rgba(255, 114, 129, 0.12);
+  --accent: #f5b85c;
+  --accent-bright: #ffd08a;
+  --accent-soft: rgba(245, 184, 92, 0.12);
   --teal: #6dd0cf;
   --teal-soft: rgba(109, 208, 207, 0.12);
   --line: rgba(224, 239, 246, 0.16);
@@ -92,6 +92,10 @@ a:focus-visible {
 ::selection {
   background: var(--accent);
   color: #fff;
+}
+
+html[data-theme="dark"] ::selection {
+  color: #17202a;
 }
 
 .skip-link {
@@ -602,7 +606,17 @@ html[data-theme="dark"] .portrait-image--dark {
   margin: 0 0 18px;
 }
 
-.about-copy a,
+.about-copy a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.about-copy a:hover {
+  color: var(--accent-bright);
+}
+
 .news-list a,
 .publication-footnote a {
   color: var(--ink);
@@ -613,7 +627,6 @@ html[data-theme="dark"] .portrait-image--dark {
   transition: color 180ms ease, text-decoration-color 180ms ease;
 }
 
-.about-copy a:hover,
 .news-list a:hover,
 .publication-footnote a:hover {
   color: var(--accent);
