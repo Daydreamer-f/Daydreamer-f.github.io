@@ -166,6 +166,6 @@ experiences:
     focus: Human motion modeling and generation
 ---
 
-I am a Ph.D. student in [Robotics at Carnegie Mellon University](https://www.ri.cmu.edu/education/academic-programs/doctoral-robotics-program/). I received my B.S. in Electrical Engineering and Computer Science from [Peking University](https://eecs.pku.edu.cn/en/) in July 2026.
+I am a first-year Ph.D. student in [Robotics at Carnegie Mellon University](https://www.ri.cmu.edu/education/academic-programs/doctoral-robotics-program/), where I am fortunate to be co-advised by [Prof. Deva Ramanan](https://www.cs.cmu.edu/~deva/) and [Prof. Sebastian Scherer](https://theairlab.org/team/sebastian/). I received my B.S. in Electrical Engineering and Computer Science from [Peking University](https://eecs.pku.edu.cn/en/) in July 2026.
 
 I am currently a research intern at the [Beijing Institute for General Artificial Intelligence (BIGAI)](https://www.bigai.ai/), working with [Dr. Siyuan Huang](https://siyuanhuang.com/). Previously, I worked with [Prof. Ehsan Adeli](https://stanford.edu/~eadeli/) at the [Stanford Vision & Learning Lab](https://svl.stanford.edu/), and with [Prof. Lingjie Liu](https://lingjie0206.github.io/) and [Prof. Kostas Daniilidis](https://www.cis.upenn.edu/~kostas/) at the [Penn GRASP Laboratory](https://www.grasp.upenn.edu/).
