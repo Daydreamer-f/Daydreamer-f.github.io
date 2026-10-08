@@ -617,6 +617,14 @@ html[data-theme="dark"] .portrait-image--dark {
   color: var(--accent-bright);
 }
 
+.about-copy a.plain {
+  font-weight: inherit;
+}
+
+.about-copy a.plain strong {
+  font-weight: 700;
+}
+
 .news-list a,
 .publication-footnote a {
   color: var(--ink);
